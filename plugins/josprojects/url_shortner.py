@@ -25,7 +25,6 @@ URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'c9295fe62d8e
 
 
 
-
 reply_markup = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton(text='join projects channel', url='https://telegram.me/josprojects')
