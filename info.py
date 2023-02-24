@@ -15,6 +15,9 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '14782914'))
 API_HASH = environ.get('API_HASH', '3aa2fabe1074632cf6e2b01da083a2c6')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6157468099:AAH657HJIMNzrRFQxEG0kZcboNnNZy2SNmE")
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'TGLink.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'c9295fe62d8ef1df1ce67dc8ff50cddb9177a763')
+
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
